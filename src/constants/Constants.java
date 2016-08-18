@@ -31,4 +31,28 @@ public interface Constants {
     String THREE_PLAYER_PC_BUTTON = "3 H 1 PC";
     String TWO_PLAYER_PC_BUTTON = "2 H 2 PC";
     String ONE_PLAYER_PC_BUTTON = "1 H 3 PC";
+
+    /*Suits*/
+    String CLUBS = "CLUBS";
+    String HEARTS = "HEARTS";
+    String SPADES = "SPADES";
+    String DIAMONDS = "DIAMONDS";
+
+    /*Values of cards*/
+    String ACE = "ACE";
+    String KING = "KING";
+    String QUEEN = "QUEEN";
+    String JACK = "JACK";
+    String TEN = "TEN";
+    String NINE = "NINE";
+    String EIGHT = "EIGHT";
+    String SEVEN = "SEVEN";
+    String SIX = "SIX";
+    String FIVE = "FIVE";
+    String FOUR = "FOUR";
+    String THREE = "THREE";
+    String TWO = "TWO";
+
+    /**Number of iterations to shuffle a deck of cards.*/
+    int SHUFFLE_ITERATIONS = 100;
 }
