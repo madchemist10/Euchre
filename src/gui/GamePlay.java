@@ -8,7 +8,6 @@ import constants.Constants;
 public enum GamePlay {
 
     TWO_PLAYER (Constants.TWO_PLAYER_BUTTON),
-    THREE_PLAYER(Constants.THREE_PLAYER_BUTTON),
     FOUR_PLAYER(Constants.FOUR_PLAYER_BUTTON),
     THREE_PLAYER_PLUS_PC(Constants.THREE_PLAYER_PC_BUTTON),
     TWO_PLAYER_PLUS_PC(Constants.TWO_PLAYER_PC_BUTTON),

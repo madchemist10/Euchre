@@ -18,9 +18,6 @@ import java.util.concurrent.atomic.AtomicBoolean;
  * |------------|
  * | TWO_PLAYER |
  * |------------|
- * |--------------|
- * | THREE_PLAYER |
- * |--------------|
  * |-------------|
  * | FOUR_PLAYER |
  * |-------------|
@@ -57,9 +54,6 @@ public class GamePlayChoice extends JFrame{
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;
         createButtonWithCallback(GamePlay.TWO_PLAYER);
-
-        gridBagConstraints.gridy++;
-        createButtonWithCallback(GamePlay.THREE_PLAYER);
 
         gridBagConstraints.gridy++;
         createButtonWithCallback(GamePlay.FOUR_PLAYER);

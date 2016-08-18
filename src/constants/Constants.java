@@ -26,7 +26,6 @@ public interface Constants {
 
     /*Button labels for game play popup*/
     String TWO_PLAYER_BUTTON = "2 H";
-    String THREE_PLAYER_BUTTON = "3 H";
     String FOUR_PLAYER_BUTTON = "4 H";
     String THREE_PLAYER_PC_BUTTON = "3 H 1 PC";
     String TWO_PLAYER_PC_BUTTON = "2 H 2 PC";
@@ -55,4 +54,17 @@ public interface Constants {
 
     /**Number of iterations to shuffle a deck of cards.*/
     int SHUFFLE_ITERATIONS = 100;
+
+    /**Maximum number of cards a player can have at any given time.
+     * 5 for normal hand, 6 if you are the dealer.*/
+    int MAX_PLAYER_CARD_COUNT = 6;
+
+    /**Number of cards in a euker deck.*/
+    int EUKER_CARD_COUNT = 24;
+
+    /*Orientation of each player.*/
+    String LEFT = "LEFT";
+    String RIGHT = "RIGHT";
+    String TOP = "TOP";
+    String BOTTOM = "BOTTOM";
 }

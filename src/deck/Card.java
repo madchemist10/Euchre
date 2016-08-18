@@ -1,10 +1,12 @@
 package deck;
 
+import javax.swing.*;
+
 /**
  * Representation of a card to be included in a
  * deck of cards.
  */
-public class Card {
+public class Card extends JButton {
 
     /**This cards suit.*/
     private final Suit suit;
